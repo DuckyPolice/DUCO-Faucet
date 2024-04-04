@@ -1,0 +1,593 @@
+ * Serving Flask app 'main'
+ * Debug mode: off
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user cmcoin: yes
+Successful transaction for user cmcoin.
+Verification status for user cmcoin: yes
+Cooldown: User cmcoin is on cooldown. Remaining time: 899 seconds.
+Verification status for user test: no
+ItCBTC was blacklisted so the request was blocked.
+ItCBTC was blacklisted so the request was blocked.
+ItCBTC was blacklisted so the request was blocked.
+ItCBTC was blacklisted so the request was blocked.
+ItCBTC was blacklisted so the request was blocked.
+ItCBTC1 was blacklisted so the request was blocked.
+Verification status for user revox: yes
+Successful transaction for user revox.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 899 seconds.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 891 seconds.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 890 seconds.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 890 seconds.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 889 seconds.
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user test: no
+Verification status for user text: 
+Verification status for user test: no
+Verification status for user testrevox: 
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Successful transaction for user revox.
+Successful transaction for user revox.
+Successful transaction for user revox.
+Successful transaction for user revox.
+Successful transaction for user revox.
+Successful transaction for user revox.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 859 seconds.
+ItCBTC was blacklisted so the request was blocked.
+Verification status for user amogus: yes
+Successful transaction for user amogus.
+Verification status for user test: no
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 794 seconds.
+Verification status for user skibity: 
+rileycoin was blacklisted so the request was blocked.
+rileycoin was blacklisted so the request was blocked.
+rileycoin was blacklisted so the request was blocked.
+rileycoin was blacklisted so the request was blocked.
+rileycoin was blacklisted so the request was blocked.
+rileycoin was blacklisted so the request was blocked.
+rileycoin was blacklisted so the request was blocked.
+Verification status for user papermodel123: yes
+Successful transaction for user papermodel123.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 899 seconds.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 898 seconds.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 897 seconds.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 896 seconds.
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Verification status for user revox: yes
+Successful transaction for user revox.
+Successful transaction for user revox.
+Successful transaction for user revox.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user revox.
+Successful transaction for user revox.
+Successful transaction for user revox.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 900 seconds.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 899 seconds.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 899 seconds.
+Successful transaction for user revox.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user revox.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 899 seconds.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 899 seconds.
+Verification status for user amogus: yes
+Verification status for user amogus: yes
+Verification status for user amogus: yes
+Verification status for user amogus: yes
+Verification status for user amogus: yes
+Verification status for user amogus: yes
+Successful transaction for user amogus.
+Successful transaction for user amogus.
+Successful transaction for user amogus.
+Verification status for user amogus: yes
+Cooldown: User amogus is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user amogus.
+Successful transaction for user amogus.
+Verification status for user amogus: yes
+Cooldown: User amogus is on cooldown. Remaining time: 900 seconds.
+Verification status for user amogus: yes
+Cooldown: User amogus is on cooldown. Remaining time: 899 seconds.
+Successful transaction for user amogus.
+Verification status for user amogus: yes
+Cooldown: User amogus is on cooldown. Remaining time: 899 seconds.
+Verification status for user amogus: yes
+Cooldown: User amogus is on cooldown. Remaining time: 900 seconds.
+Verification status for user amogus: yes
+Cooldown: User amogus is on cooldown. Remaining time: 900 seconds.
+Verification status for user amogus: yes
+Cooldown: User amogus is on cooldown. Remaining time: 897 seconds.
+Verification status for user zimmy: no
+Verification status for user zimmy: no
+Verification status for user zimmy: no
+Verification status for user zimmy: no
+Verification status for user zimmy: no
+Verification status for user zimmy: no
+Verification status for user zimmy: no
+ITCBTC was blacklisted so the request was blocked.
+ITCBTC was blacklisted so the request was blocked.
+ITCBTC was blacklisted so the request was blocked.
+Verification status for user paranoid64: yes
+Successful transaction for user paranoid64.
+Verification status for user paranoid64: yes
+Cooldown: User paranoid64 is on cooldown. Remaining time: 897 seconds.
+Verification status for user paranoid64: yes
+Cooldown: User paranoid64 is on cooldown. Remaining time: 896 seconds.
+Verification status for user paranoid64: yes
+Cooldown: User paranoid64 is on cooldown. Remaining time: 896 seconds.
+Verification status for user paranoid64: yes
+Cooldown: User paranoid64 is on cooldown. Remaining time: 894 seconds.
+Verification status for user gamecat999: 
+Verification status for user gamecat999: 
+Verification status for user gamecat999: 
+Verification status for user gamecat999: 
+Verification status for user gamecat999: 
+Verification status for user gamecat999: 
+Verification status for user gamecat999: 
+Verification status for user cmcoin: yes
+Verification status for user cmcoin: yes
+Verification status for user cmcoin: yes
+Verification status for user cmcoin: yes
+Verification status for user cmcoin: yes
+Successful transaction for user cmcoin.
+Successful transaction for user cmcoin.
+Successful transaction for user cmcoin.
+Verification status for user cmcoin: yes
+Cooldown: User cmcoin is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user cmcoin.
+Verification status for user cmcoin: yes
+Cooldown: User cmcoin is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user cmcoin.
+Verification status for user cmcoin: yes
+Cooldown: User cmcoin is on cooldown. Remaining time: 900 seconds.
+Verification status for user DuckyPolice: yes
+Verification status for user DuckyPolice: yes
+Verification status for user DuckyPolice: yes
+Verification status for user DuckyPolice: yes
+Verification status for user DuckyPolice: yes
+Successful transaction for user DuckyPolice.
+Successful transaction for user DuckyPolice.
+Verification status for user DuckyPolice: yes
+Cooldown: User DuckyPolice is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user DuckyPolice.
+Verification status for user DuckyPolice: yes
+Cooldown: User DuckyPolice is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user DuckyPolice.
+Verification status for user DuckyPolice: yes
+Cooldown: User DuckyPolice is on cooldown. Remaining time: 900 seconds.
+Verification status for user DuckyPolice: yes
+Cooldown: User DuckyPolice is on cooldown. Remaining time: 900 seconds.
+Verification status for user DuckyPolice: yes
+Cooldown: User DuckyPolice is on cooldown. Remaining time: 900 seconds.
+Verification status for user DuckyPolice: yes
+Cooldown: User DuckyPolice is on cooldown. Remaining time: 899 seconds.
+Successful transaction for user DuckyPolice.
+Verification status for user DuckyPolice: yes
+Cooldown: User DuckyPolice is on cooldown. Remaining time: 898 seconds.
+Verification status for user araxe: yes
+Verification status for user araxe: yes
+Verification status for user araxe: yes
+Verification status for user araxe: yes
+Verification status for user araxe: yes
+Successful transaction for user araxe.
+Verification status for user araxe: yes
+Cooldown: User araxe is on cooldown. Remaining time: 900 seconds.
+Verification status for user araxe: yes
+Cooldown: User araxe is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user araxe.
+Verification status for user araxe: yes
+Cooldown: User araxe is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user araxe.
+Verification status for user araxe: yes
+Cooldown: User araxe is on cooldown. Remaining time: 899 seconds.
+Successful transaction for user araxe.
+Verification status for user araxe: yes
+Cooldown: User araxe is on cooldown. Remaining time: 899 seconds.
+Successful transaction for user araxe.
+Verification status for user araxe: yes
+Cooldown: User araxe is on cooldown. Remaining time: 900 seconds.
+Verification status for user araxe: yes
+Cooldown: User araxe is on cooldown. Remaining time: 898 seconds.
+Verification status for user teddy: yes
+Verification status for user teddy: yes
+Verification status for user teddy: yes
+Verification status for user teddy: yes
+Verification status for user teddy: yes
+Successful transaction for user teddy.
+Verification status for user teddy: yes
+Cooldown: User teddy is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user teddy.
+Verification status for user teddy: yes
+Cooldown: User teddy is on cooldown. Remaining time: 900 seconds.
+Verification status for user teddy: yes
+Cooldown: User teddy is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user teddy.
+Successful transaction for user teddy.
+Verification status for user teddy: yes
+Cooldown: User teddy is on cooldown. Remaining time: 900 seconds.
+Verification status for user teddy: yes
+Cooldown: User teddy is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user teddy.
+Verification status for user teddy: yes
+Cooldown: User teddy is on cooldown. Remaining time: 899 seconds.
+Verification status for user teddy: yes
+Cooldown: User teddy is on cooldown. Remaining time: 898 seconds.
+Verification status for user ptrak1: 
+Verification status for user ptrak1: 
+Verification status for user ptrak1: 
+Verification status for user ptrak1: 
+Verification status for user ptrak1: 
+Verification status for user ptrak1: 
+Verification status for user ptrak1: 
+Verification status for user ptrak1: 
+Verification status for user SaiDeschain19: yes
+Successful transaction for user SaiDeschain19.
+Verification status for user stijink: yes
+Verification status for user stijink: yes
+Verification status for user stijink: yes
+Verification status for user stijink: yes
+Verification status for user stijink: yes
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Successful transaction for user stijink.
+Successful transaction for user stijink.
+Verification status for user stijink: yes
+Cooldown: User stijink is on cooldown. Remaining time: 900 seconds.
+Verification status for user stijink: yes
+Cooldown: User stijink is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user stijink.
+Successful transaction for user stijink.
+Successful transaction for user stijink.
+Verification status for user stijink: yes
+Cooldown: User stijink is on cooldown. Remaining time: 900 seconds.
+Verification status for user stijink: yes
+Cooldown: User stijink is on cooldown. Remaining time: 900 seconds.
+Verification status for user stijink: yes
+Cooldown: User stijink is on cooldown. Remaining time: 900 seconds.
+ItCBTC was blacklisted so the request was blocked.
+ItCBTC was blacklisted so the request was blocked.
+Verification status for user nanomachine: yes
+Verification status for user nanomachine: yes
+Verification status for user nanomachine: yes
+Verification status for user nanomachine: yes
+Successful transaction for user nanomachine.
+Verification status for user nanomachine: yes
+Cooldown: User nanomachine is on cooldown. Remaining time: 900 seconds.
+Successful transaction for user nanomachine.
+Successful transaction for user nanomachine.
+Verification status for user nanomachine: yes
+Cooldown: User nanomachine is on cooldown. Remaining time: 900 seconds.
+Verification status for user nanomachine: yes
+Cooldown: User nanomachine is on cooldown. Remaining time: 900 seconds.
+Verification status for user nanomachine: yes
+Cooldown: User nanomachine is on cooldown. Remaining time: 900 seconds.
+Verification status for user nanomachine: yes
+Cooldown: User nanomachine is on cooldown. Remaining time: 899 seconds.
+Successful transaction for user nanomachine.
+Verification status for user nanomachine: yes
+Cooldown: User nanomachine is on cooldown. Remaining time: 900 seconds.
+Verification status for user nanomachine: yes
+Cooldown: User nanomachine is on cooldown. Remaining time: 900 seconds.
+Verification status for user nanomachine: yes
+Cooldown: User nanomachine is on cooldown. Remaining time: 898 seconds.
+Verification status for user ptrakl: no
+Verification status for user moosmutzel: yes
+Successful transaction for user moosmutzel.
+Verification status for user papermodel123: yes
+Successful transaction for user papermodel123.
+Verification status for user TW_IG: yes
+Successful transaction for user TW_IG.
+Verification status for user TW_IG: yes
+Cooldown: User TW_IG is on cooldown. Remaining time: 896 seconds.
+Verification status for user araxe: yes
+Successful transaction for user araxe.
+Verification status for user papermodel123: yes
+Successful transaction for user papermodel123.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user douradonis: yes
+Cooldown: User douradonis is on cooldown. Remaining time: 883 seconds.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user Jonny11: yes
+Successful transaction for user Jonny11.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 899 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 898 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 897 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 896 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 895 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 893 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 892 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 891 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 890 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 889 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 888 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 887 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 886 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 885 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 884 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 883 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 882 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 881 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 880 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 879 seconds.
+Verification status for user Jonny11: yes
+Cooldown: User Jonny11 is on cooldown. Remaining time: 879 seconds.
+Verification status for user coonburn: 
+Verification status for user coonburn: 
+Verification status for user coonburn: 
+Verification status for user coonburn: 
+Verification status for user coonburn: 
+Verification status for user AlmarRido: yes
+Successful transaction for user AlmarRido.
+Verification status for user AlmarRido: yes
+Cooldown: User AlmarRido is on cooldown. Remaining time: 899 seconds.
+Verification status for user papermodel123: yes
+Successful transaction for user papermodel123.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 899 seconds.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user mzakiab2066: yes
+Cooldown: User mzakiab2066 is on cooldown. Remaining time: 899 seconds.
+Verification status for user KosmicDaKerbal: yes
+Successful transaction for user KosmicDaKerbal.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 887 seconds.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user rhonjay: yes
+Successful transaction for user rhonjay.
+Verification status for user Pekapeque: yes
+Successful transaction for user Pekapeque.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user papermodel123: yes
+Successful transaction for user papermodel123.
+Verification status for user Blxsted: yes
+Successful transaction for user Blxsted.
+Verification status for user Blxsted: yes
+Cooldown: User Blxsted is on cooldown. Remaining time: 898 seconds.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user rhonjay: yes
+Successful transaction for user rhonjay.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user jonizen: yes
+Successful transaction for user jonizen.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user sandwichvtt: yes
+Successful transaction for user sandwichvtt.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user rhonjay: yes
+Successful transaction for user rhonjay.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user mzakiab2066: yes
+Cooldown: User mzakiab2066 is on cooldown. Remaining time: 897 seconds.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+ItCBTC was blacklisted so the request was blocked.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user rhonjay: yes
+Successful transaction for user rhonjay.
+Verification status for user Pekapeque: yes
+Successful transaction for user Pekapeque.
+Verification status for user Pekapeque: yes
+Cooldown: User Pekapeque is on cooldown. Remaining time: 892 seconds.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user Pekapeque: yes
+Successful transaction for user Pekapeque.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user Yuri511: yes
+Successful transaction for user Yuri511.
+Verification status for user Yuri511: yes
+Cooldown: User Yuri511 is on cooldown. Remaining time: 899 seconds.
+Verification status for user Yuri511: yes
+Cooldown: User Yuri511 is on cooldown. Remaining time: 897 seconds.
+Verification status for user Yuri511: yes
+Cooldown: User Yuri511 is on cooldown. Remaining time: 896 seconds.
+Verification status for user Yuri511: yes
+Cooldown: User Yuri511 is on cooldown. Remaining time: 895 seconds.
+Verification status for user Yuri511: yes
+Cooldown: User Yuri511 is on cooldown. Remaining time: 894 seconds.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user papermodel123: yes
+Successful transaction for user papermodel123.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 899 seconds.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 897 seconds.
+Verification status for user mzakiab2066: yes
+Successful transaction for user mzakiab2066.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user Pekapeque: yes
+Successful transaction for user Pekapeque.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user KosmicDaKerbal: yes
+Successful transaction for user KosmicDaKerbal.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 899 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 897 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 895 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 894 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 893 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 892 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 891 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 890 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 888 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 887 seconds.
+Verification status for user KosmicDaKerbal: yes
+Cooldown: User KosmicDaKerbal is on cooldown. Remaining time: 886 seconds.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+ItCBTC was blacklisted so the request was blocked.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user douradonis: yes
+Successful transaction for user douradonis.
+Verification status for user KosmicDaKerbal: yes
+Successful transaction for user KosmicDaKerbal.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user papermodel123: yes
+Successful transaction for user papermodel123.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 898 seconds.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user Scorpy1971: yes
+Successful transaction for user Scorpy1971.
+Verification status for user Scorpy1971: yes
+Cooldown: User Scorpy1971 is on cooldown. Remaining time: 842 seconds.
+Verification status for user revox: yes
+Successful transaction for user revox.
+Verification status for user Topsider: yes
+Successful transaction for user Topsider.
+Verification status for user stijink: yes
+Successful transaction for user stijink.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 312 seconds.
+Topsider was blacklisted so the request was blocked.
+Topsider was blacklisted so the request was blocked.
+Verification status for user papermodel123: yes
+Successful transaction for user papermodel123.
+Verification status for user papermodel123: yes
+Cooldown: User papermodel123 is on cooldown. Remaining time: 899 seconds.
+Verification status for user Pekapeque: yes
+Successful transaction for user Pekapeque.
+Verification status for user revox: yes
+Successful transaction for user revox.
+Verification status for user revox: yes
+Cooldown: User revox is on cooldown. Remaining time: 895 seconds.
+Verification status for user Pekapeque: yes
+Successful transaction for user Pekapeque.

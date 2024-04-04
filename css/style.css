@@ -1,0 +1,316 @@
+@import "https://fonts.googleapis.com/css?family=VT323";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+@keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  2% {
+    color: #ff1a00;
+  }
+  4% {
+    color: #ff3300;
+  }
+  6% {
+    color: #ff4d00;
+  }
+  8% {
+    color: #ff6600;
+  }
+  10% {
+    color: #ff8000;
+  }
+  12% {
+    color: #ff9900;
+  }
+  14% {
+    color: #ffb200;
+  }
+  16% {
+    color: #ffcc00;
+  }
+  18% {
+    color: #ffe600;
+  }
+  20% {
+    color: #ffff00;
+  }
+  22% {
+    color: #e6ff00;
+  }
+  24% {
+    color: #ccff00;
+  }
+  26% {
+    color: #b2ff00;
+  }
+  28% {
+    color: #99ff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  32% {
+    color: #66ff00;
+  }
+  34% {
+    color: #4dff00;
+  }
+  36% {
+    color: #33ff00;
+  }
+  38% {
+    color: #1aff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  42% {
+    color: #00ff1a;
+  }
+  44% {
+    color: #00ff33;
+  }
+  46% {
+    color: #00ff4d;
+  }
+  48% {
+    color: #00ff66;
+  }
+  50% {
+    color: #00ff80;
+  }
+  52% {
+    color: #00ff99;
+  }
+  54% {
+    color: #00ffb2;
+  }
+  56% {
+    color: #00ffcc;
+  }
+  58% {
+    color: #00ffe6;
+  }
+  60% {
+    color: #00ffff;
+  }
+  62% {
+    color: #00e6ff;
+  }
+  64% {
+    color: #00ccff;
+  }
+  66% {
+    color: #00b2ff;
+  }
+  68% {
+    color: #0099ff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  72% {
+    color: #0066ff;
+  }
+  74% {
+    color: #004dff;
+  }
+  76% {
+    color: #0033ff;
+  }
+  78% {
+    color: #001aff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  82% {
+    color: #1a00ff;
+  }
+  84% {
+    color: #3300ff;
+  }
+  86% {
+    color: #4d00ff;
+  }
+  88% {
+    color: #6600ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  92% {
+    color: #9900ff;
+  }
+  94% {
+    color: #b200ff;
+  }
+  96% {
+    color: #cc00ff;
+  }
+  98% {
+    color: #e600ff;
+  }
+  100% {
+    color: #ff00ff; /* Matches the initial color */
+  }
+}
+
+/* Apply rainbow animation to text */
+.rainbow-text {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  animation: rainbow 10s infinite;
+}
+
+html {
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  background-color: #000000;
+  
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.scrolling-text {
+  animation: scrolling 30s linear infinite;
+
+  white-space: nowrap;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  /* header */
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #010101;
+  text-align: left;
+  padding: 20px;
+}
+.div2 {
+  /* title and logo */
+  grid-area: 2 / 1 / 5 / 2;
+  background-color: #171717;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.div3 {
+  /* duco faucet form/input & ad */
+  grid-area: 5 / 1 / 8 / 2;
+  background-color: #252525;
+  color: #ffffff;
+  padding: 20px;
+}
+.div4 {
+  /* donating info and faucet info */
+  grid-area: 8 / 1 / 11 / 2;
+  background-color: #171717;
+  color: #ffffff;
+}
+
+.title {
+  text-align: center;
+}
+
+#getDucosButton {
+  border-radius: 20px;
+  padding: 10px;
+  font-family: Poppins, sans-serif;
+  margin: 10px;
+  text-align: center;
+  border-width: 0px;
+  float: center;
+  width: 70%;
+  right: 50px;
+  color: #ffffff;
+  background-color: #444444;
+}
+
+input[type|="text"] {
+  background-color: #888888;
+  border-radius: 100px;
+  padding: 10px;
+  font-family: Poppins, sans-serif;
+  color: #ffffff;
+  border-width: 0px;
+  margin: auto;
+  float: center;
+  width: 80%;
+}
+
+a {
+  color: #ff7700;
+}
+
+.icon-link {
+  height: 100px;
+  width: 100px;
+  font-size: 25px;
+  color: #5865f2;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

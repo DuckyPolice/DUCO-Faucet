@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/stats.css" />
+    <script
+      src="https://kit.fontawesome.com/a314d2969a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+    <title>Stormsurge Duco Faucet Stats</title>
+    <meta name="title" content="Stats - Stormsurge Duino-Coin Faucet" />
+    <meta
+      name="description"
+      content="You can get 10 DUCO per every 15 minutes here! STORMSURGE FAUCET"
+    />
+    <meta
+      name="keywords"
+      content="duinocoin, duino-coin, faucet, duco, duckypolice, stormsurge"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta property="og:image" content="/assets/favicon.png" />
+  </head>
+  <body>
+    <span
+      class="menubutton"
+      style="font-size: 30px; cursor: pointer; color: white"
+      onclick="openNav()"
+      >&#9776;</span
+    >
+    <!-- <div class="page-opacity"> -->
+
+    <h1>STORMSURGE DUCO FAUCET</h1>
+    <!--🎁 <strong>Total Distributed:</strong> <span id="totalDistributed">Loading...</span> Ducos <br>-->
+    <div class="content">
+      <table>
+        <p>
+          <tr>
+            <td>💳 <strong>Faucet Wallet Balance:</strong></td>
+            <td><span id="walletBalance">Loading...</span> Ducos</td>
+          </tr>
+          <tr>
+            <td>💵 <strong>Last Transactions:</strong></td>
+            <td>
+              <span id="lastTransaction"
+                ><div
+                  id="transactionContainer"
+                  style="max-height: 200px; overflow-y: auto"
+                >
+                  <ul id="transactionList"></ul>
+                  <button id="more-button">View More</button>
+                </div>
+              </span>
+              <br />
+            </td>
+          </tr>
+
+          <em>Last Updated: <span id="lastUpdated">Loading...</span></em>
+        </p>
+      </table>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="/index.html">Main</a>
+      <a href="/stats/index.html">Stats</a>
+      <a href="/donate">Donate</a>
+      <div class="sponsor">
+        <img src="assets/sponsor.png" width="0%" />
+      </div>
+    </div>
+    <!--  </div> -->
+    <script>
+      // Function to fetch data from the API
+      /* async function fetchData(url) {
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+      }
+
+      // Function to update the HTML with fetched data
+      async function updateData() {
+        const apiUrl = "https://server.duinocoin.com/users/DuckyPolice"; // Replace 'your_username' with the actual username
+
+        // Fetch user data
+        const userData = await fetchData(apiUrl);
+        const balance = userData.result.balance.balance;
+        const transactions = userData.result.transactions;
+        const lastTransaction =
+          transactions.length > 0 ? transactions[0] : null;
+
+        // Update HTML elements
+        document.getElementById("walletBalance").innerText = balance.toFixed(4);
+        //document.getElementById('totalDistributed').innerText = '20.5'; // Replace with actual total distributed
+        document.getElementById("lastTransaction").innerText = lastTransaction
+          ? `${lastTransaction.datetime} ${lastTransaction.amount} DUCO ${lastTransaction.sender} (${lastTransaction.id}) UTC-2`
+          : "N/A";
+        // document.getElementById("goalToDistribute").innerText = "500"; // Replace with actual goal to distribute
+
+        // Fetch and update last updated time
+        const now = new Date();
+        const lastUpdatedTime = `${now.toLocaleDateString(
+          "en-US"
+        )} at ${now.toLocaleTimeString("en-US")}`;
+        document.getElementById("lastUpdated").innerText = lastUpdatedTime;
+        document.getElementById("lastUpdateTime").innerText =
+          now.toLocaleTimeString("en-US", { timeZone: "America/Sao_Paulo" });
+      }
+
+      // Update data when the page loads
+      window.onload = updateData;*/
+      async function fetchData(url) {
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+      }
+      async function updateData() {
+      //  const resultAmount;
+      //  const increaser = 10;
+      //  resultAmount = resultAmount + increaser;
+        const apiUrl =
+          "https://server.duinocoin.com/v3/users/DuckyPolice?limit=10"// + resultAmount.toString() + ""; // Replace 'your_username' with the actual username
+       
+        
+        // Fetch user data
+        const userData = await fetchData(apiUrl);
+        const balance = userData.result.balance.balance;
+        const transactions = userData.result.transactions;
+
+        // Update HTML elements
+        document.getElementById("walletBalance").innerText = balance.toFixed(4);
+
+        
+        /*const donorList = [];
+
+// Loop through transactions to identify donor-related transactions
+for (let i = 0; i < transactions.length; i++) {
+    const transaction = transactions[i];
+
+    // Check if DuckyPolice is the recipient and not the sender
+    if (transaction.recipient === "DuckyPolice" && transaction.sender !== "DuckyPolice") {
+        donorList.push(transaction);
+    }
+}
+
+// Display the donor list
+console.log("Donor List:");
+donorList.forEach((transaction, index) => {
+    console.log(`Transaction ${index + 1}:`);
+    console.log(`Sender: ${transaction.sender}`);
+    console.log(`Recipient: ${transaction.recipient}`);
+    console.log(`Amount: ${transaction.amount} DUCO`);
+});*/
+
+        // Display the top 5 most recent transactions
+        const transactionList = document.getElementById("transactionList");
+        transactionList.innerHTML = ""; // Clear previous transactions
+
+        for (let i = 0; i < Math.min(5, transactions.length); i++) {
+          const transaction = transactions[i];
+          const transactionItem = document.createElement("li");
+
+          // Split date and time
+          const dateTimeParts = transaction.datetime.split(" ");
+          const dateParts = dateTimeParts[0].split("/");
+          const timeParts = dateTimeParts[1].split(":");
+
+          // Create a Date object with the transaction datetime
+          const transactionDate = new Date(
+            parseInt(dateParts[2], 10), // Year
+            parseInt(dateParts[1], 10) - 1, // Month (0-indexed)
+            parseInt(dateParts[0], 10), // Day
+            parseInt(timeParts[0], 10), // Hour
+            parseInt(timeParts[1], 10), // Minute
+            parseInt(timeParts[2], 10) // Second
+          );
+
+          // Format the date
+          const options = { year: "numeric", month: "long", day: "numeric" };
+          const formattedDate = transactionDate.toLocaleDateString(
+            "en-US",
+            options
+          );
+
+          const formattedTransactionDate = `${formattedDate} | ${
+            transactionDate.toTimeString().split(" ")[0]
+          }`;
+
+          transactionItem.innerHTML = `
+        <span>${formattedTransactionDate} (UTC)</span><br>
+        <span>${transaction.sender} > ${transaction.recipient}</span><br>
+        <span>Amount: ${transaction.amount} DUCO</span>
+    `;
+
+          transactionList.appendChild(transactionItem);
+        }
+
+        // Fetch and update last updated time
+        const now = new Date();
+        const lastUpdatedTime = `${now.toLocaleDateString(
+          "en-US"
+        )} at ${now.toLocaleTimeString("en-US")}`;
+        document.getElementById("lastUpdated").innerText = lastUpdatedTime;
+        document.getElementById("lastUpdateTime").innerText =
+          now.toLocaleTimeString("en-US", { timeZone: "America/Sao_Paulo" });
+      }
+
+      // Update data when the page loads
+      window.onload = updateData;
+    </script>
+    <footer>
+      <p>Send DUCO to "DuckyPolice" to Donate</p>
+      <p>Or send ETH to:</p>
+      <p>0xE444324d3b8712f85048FfA7672B9A088Ff1ceFB</p>
+      <a class="discord" href="https://discord.gg/gz7edPXEkE"
+        >Join our Discord!</a
+      >
+      <br />
+    </footer>
+  </body>
+</html>
