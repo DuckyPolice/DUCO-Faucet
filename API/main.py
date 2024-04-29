@@ -38,12 +38,12 @@ def is_user_blacklisted(username):
         print(f"Failed to check blacklist for user {username}: {e}")
         return False
 
-@app.route("/transaction/<user_id>", methods=["POST"])
+@app.route("/transaction/<user_id>", methods=["GET"])
 def transaction(user_id):
     current_time = datetime.now()
 
     # Verify ReCAPTCHA token
-    recaptcha_token = request.form.get("recaptchaToken")
+    recaptcha_token = request.args.get("recaptchaToken")
     response = requests.post("https://www.google.com/recaptcha/api/siteverify", data={
         "secret": RECAPTCHA_SECRET_KEY,
         "response": recaptcha_token
@@ -70,13 +70,7 @@ def transaction(user_id):
 
     try:
         # Perform the transaction using requests
-        response = requests.get(f"https://server.duinocoin.com/transaction", params={
-            'username': HOST_USERNAME,
-            'password': PASSWORD,
-            'recipient': user_id,
-            'amount': AMOUNT,
-            'memo': MESSAGE
-        })
+        response = requests.get(f"https://server.duinocoin.com/transaction?username={HOST_USERNAME}&password={PASSWORD}&recipient={user_id}&amount={AMOUNT}&memo={MESSAGE}")
 
         if response.status_code == 200:
             # Update the cooldown for the user ID
