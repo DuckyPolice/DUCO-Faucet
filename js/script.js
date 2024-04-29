@@ -11,8 +11,17 @@ function executeRecaptchaAndSubmit() {
     });
 }
 
-// Modify form validation function
+// Form validation function
 function formValidation() {
+    // Perform form validation here
+    // For example, you can check if the username field is filled out
+    var username = document.getElementById("ducoUsername").value;
+    if (!username) {
+        alert("Please enter your username.");
+        return;
+    }
+    
+    // If form validation passes, execute ReCAPTCHA and submit the form
     executeRecaptchaAndSubmit();
 }
 

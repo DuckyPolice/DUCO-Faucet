@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Cooldown duration in seconds
-COOLDOWN_DURATION = (15 * 60)  # 15 * 1 minute = 15 minutes
+COOLDOWN_DURATION = (15 * 60)  # 15 minutes
 MESSAGE = "<Your memo here>"
 AMOUNT = 10  # you can change this to whatever you want
 PASSWORD = "<The host account's password>"
@@ -22,10 +22,7 @@ def is_user_verified(username):
         response = requests.get(f"https://server.duinocoin.com/users/{username}")
         response.raise_for_status()
         user_data = response.json().get("result", {}).get("balance", {})
-        
-        # Check if "verified" key is present in the nested structure
         verified_status = user_data.get("verified", "").lower()
-
         print(f"Verification status for user {username}: {verified_status}")
         return verified_status == "yes"
     except requests.exceptions.RequestException as e:
@@ -41,22 +38,19 @@ def is_user_blacklisted(username):
         print(f"Failed to check blacklist for user {username}: {e}")
         return False
 
-@app.route("/verify_recaptcha", methods=["POST"])
-def verify_recaptcha():
+@app.route("/transaction/<user_id>", methods=["POST"])
+def transaction(user_id):
+    current_time = datetime.now()
+
+    # Verify ReCAPTCHA token
     recaptcha_token = request.form.get("recaptchaToken")
     response = requests.post("https://www.google.com/recaptcha/api/siteverify", data={
         "secret": RECAPTCHA_SECRET_KEY,
         "response": recaptcha_token
     })
-    data = response.json()
-    if data["success"]:
-        return jsonify({"success": True}), 200
-    else:
+    recaptcha_data = response.json()
+    if not recaptcha_data["success"]:
         return jsonify({"success": False, "message": "reCAPTCHA verification failed"}), 400
-
-@app.route("/transaction/<user_id>", methods=["POST"])
-def transaction(user_id):
-    current_time = datetime.now()
 
     # Check if user is on the blacklist
     if is_user_blacklisted(user_id):
@@ -103,4 +97,4 @@ def transaction(user_id):
         return "Unsuccessful transaction.", 500
 
 if __name__ == "__main__":
-    app.run(port=7457) # you can change this but make sure you know what you are doing
+    app.run(port=7457)  # Change port as needed
