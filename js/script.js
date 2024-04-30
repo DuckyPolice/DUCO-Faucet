@@ -1,18 +1,37 @@
-// quick validation form
-function formValidation() {
-    var userName = document.getElementById("ducoUsername");
+// ReCAPTCHA v3 site key
+const SITE_KEY = 'sussy_dude_edit_this';
 
-    if (userName && userName.value) {
-        getDucos();
-    } else {
-        alert("Please fill your username wallet.");
-    }
+// Function to execute reCAPTCHA and submit form
+function executeRecaptchaAndSubmit() {
+    grecaptcha.ready(function() {
+        grecaptcha.execute(SITE_KEY, { action: 'submit' }).then(function(token) {
+            document.getElementById('recaptchaToken').value = token;
+            document.getElementById('ducoForm').submit(); // Submit the form
+        });
+    });
 }
 
+// Form validation function
+function formValidation() {
+    // Perform form validation here
+    // For example, you can check if the username field is filled out
+    var username = document.getElementById("ducoUsername").value;
+    if (!username) {
+        alert("Please enter your username.");
+        return;
+    }
+    
+    // If form validation passes, execute ReCAPTCHA and submit the form
+    executeRecaptchaAndSubmit();
+}
+
+// Update getDucos() function to include the reCAPTCHA token in the request
 function getDucos() {
     var ducoUsername = document.getElementById("ducoUsername").value;
+    var recaptchaToken = document.getElementById("recaptchaToken").value;
 
-    fetch('https://api.stormsurge.xyz/transaction/' + ducoUsername, {
+    // Include recaptchaToken in the request
+    fetch('https://127.0.0.1:7457/transaction/' + ducoUsername + '?recaptchaToken=' + recaptchaToken, {
         method: 'GET'
     })
     .then(response => {
