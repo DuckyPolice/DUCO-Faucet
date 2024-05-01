@@ -1,122 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="./js/script.js"></script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./img/favicon.ico" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico">
     <title>STORMSURGE DUCO Faucet🚀</title>
-    <meta name="title" content="Stormsurge Duino-Coin Faucet" />
-    <meta
-      name="description"
-      content="You can get 10 DUCO per every 15 minutes here! STORMSURGE FAUCET"
-    />
-    <meta
-      name="keywords"
-      content="duinocoin, duino-coin, faucet, duco, duckypolice, stormsurge"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="language" content="English" />
-    <meta property="og:image" content="/assets/favicon.png" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/a314d2969a.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-      crossorigin="anonymous"
-    /><script 
-    src="https://www.google.com/recaptcha/api.js?render=sussy_dude_edit_this">
-   </script>
-
-    <!-- The website stylesheet -->
-    <script>
-      function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-      }
-
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-      }
-    </script>
-  </head>
-  <body>
-    <div class="parent">
-      <div class="div1">
-        <span
-          class="menubutton"
-          style="font-size: 30px; cursor: pointer; color: white"
-          onclick="openNav()"
-          >&#9776;</span
-        >
-        <a href="https://stormsurge.xyz"
-          ><img
-            src="https://www.stormsurge.xyz/images/banner.png"
-            width="200px"
-            style="float: right; margin: 10px"
-        /></a>
-      </div>
-      <div class="div2">
-        <h1 class="title">STORMSURGE DUCO FAUCET</h1>
-        <img
-          id="logo"
-          src="assets/favicon.png"
-          alt=""
-          width="100"
-          height="auto"
-        />
-        <br />
-      </div>
-      <div class="div3">
-        <form id="ducoForm">
-            <input 
-            type="text" 
-            class="input" 
-            id="ducoUsername" 
-            name="firstname" 
-            placeholder="Your duinocoin wallet username" 
-            required="required">
-            <br>
-            <button type="button" 
-            id="getDucosButton" 
-            onclick="getDucos()">Get 10 DUCO ᕲ</button>
-        </form>
-        <iframe data-aa="2302253" 
-        src="https://ad.a-ads.com/2302253?size=728x90" 
-        style="width: 728px; height: 90px; border: 0px; padding: 0; overflow: hidden; background-color: transparent; position: fixed; top: 0; left: 50%; transform: translateX(-50%); z-index: 999;"></iframe>
+    <meta name="title" content="Stormsurge Duino-Coin Faucet">
+    <meta name="description" content="You can get 10 DUCO per every 15 minutes here! STORMSURGE FAUCET">
+    <meta name="keywords" content="duinocoin, duino-coin, faucet, duco, duckypolice, stormsurge">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta property="og:image" content="/assets/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a314d2969a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossorigin="anonymous">
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lemf8spAAAAALI6KAIPSG9P8dW7ftC-0uMxaefD"></script>
+</head>
+<body>
+<div class="parent">
+    <div class="div1">
+        <span class="menubutton" style="font-size: 30px; cursor: pointer; color: white" onclick="openNav()">&#9776;</span>
+        <a href="https://stormsurge.xyz"><img src="https://www.stormsurge.xyz/images/banner.png" width="200px" style="float: right; margin: 10px"></a>
     </div>
-      <div class="div4">
+    <div class="div2">
+        <h1 class="title">STORMSURGE DUCO FAUCET</h1>
+        <img id="logo" src="assets/favicon.png" alt="" width="100" height="auto"><br>
+    </div>
+    <div class="div3">
+        <form id="ducoForm" onsubmit="return formValidation()">
+            <input type="text" class="input" id="ducoUsername" name="ducoUsername" placeholder="Your duinocoin wallet username" required="required"><br>
+            <input type="hidden" id="recaptchaToken" name="recaptchaToken">
+            <button type="submit" id="getDucosButton">Get 10 DUCO ᕲ</button>
+        </form>
+        <iframe data-aa="2302253" src="https://ad.a-ads.com/2302253?size=728x90" style="width: 728px; height: 90px; border: 0px; padding: 0; overflow: hidden; background-color: transparent; position: fixed; top: 0; left: 50%; transform: translateX(-50%); z-index: 999;"></iframe>
+    </div>
+    <div class="div4">
         <p>Amount sent: 10 DUCO</p>
         <p>Send DUCO to "DuckyPolice" to Donate</p>
         <p>Or send XMR to:</p>
         <p>48yYZ1XEYt6aAtgBT1GfBWh7iwbfchbCvhJihnccsNNr4ga4dg6iaNWGTt67xjMrmJFudPozAAHcL7Tpg4Key5h9FM1um6S</p>
+        <a class="icon-link" href="https://discord.gg/gz7edPXEkE"><i class="fa-brands fa-discord"></i></a>
+    </div>
+</div>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/">Main</a>
+    <a href="/stats">Stats</a>
+    <a href="/donate">Donate</a>
+    <div class="sponsor"><img src="/assets/sponsor.png" width="0%"></div>
+</div>
+<div class="scrolling-text">
+    <div class="rainbow-text">Sponsored by AlmarRido</div>
+</div>
 
-        <a class="icon-link" href="https://discord.gg/gz7edPXEkE"
-          ><i class="fa-brands fa-discord"></i
-        ></a>
-      </div>
-    </div>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
 
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-      >
-      <a href="/">Main</a>
-      <a href="/stats">Stats</a>
-      <a href="/donate">Donate</a>
-      <div class="sponsor">
-        <img src="/assets/sponsor.png" width="0%" />
-      </div>
-    </div>
-    <div class="scrolling-text">
-      <div class="rainbow-text">Sponsored by AlmarRido</div>
-    </div>
-  </body>
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+
+    // ReCAPTCHA v3 Enterprise site key
+    const SITE_KEY = '6Lemf8spAAAAALI6KAIPSG9P8dW7ftC-0uMxaefD';
+
+    // Form validation function
+    function formValidation() {
+        var username = document.getElementById("ducoUsername").value;
+        if (!username) {
+            alert("Please enter your username.");
+            return false;
+        }
+
+        // Execute ReCAPTCHA
+        grecaptcha.enterprise.ready(function() {
+            grecaptcha.enterprise.execute(SITE_KEY, { action: 'submit' }).then(function(token) {
+                // Set ReCAPTCHA token to the hidden field
+                document.getElementById('recaptchaToken').value = token;
+                // Send GET request using fetch
+                const url = `https://duco-faucet.onrender.com/transaction/${encodeURIComponent(username)}?recaptchaToken=${token}`;
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(data => {
+                        console.log(data); // Log the response
+                        // Handle response as needed
+                    })
+                    .catch(error => {
+                        console.error('There was a problem with the fetch operation:', error);
+                        // Handle errors
+                    });
+            });
+        });
+
+        return false; // Prevent default form submission
+    }
+</script>
+</body>
 </html>
